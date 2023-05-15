@@ -1,14 +1,12 @@
 # React Landing Page
 
-This project is a simple landing page built using React, designed to provide a clean and modern interface for showcasing your product, service, or any other content. The landing page is responsive and optimized for various screen sizes, ensuring a consistent user experience across different devices.
+This project is a simple landing page built using React. The landing page is responsive and optimized for various screen sizes, ensuring a consistent user experience across different devices.
 
 ## Features
 
 - Clean and modern design
 - Responsive layout for mobile, tablet, and desktop screens
 - Customizable sections for adding content
-- Smooth scrolling navigation
-- Easy-to-use and well-organized code structure
 
 ## Getting Started
 
@@ -52,6 +50,7 @@ This will create an optimized and minified version of the landing page in the `b
 This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
+This project was built for the purposes of learning React; as such there are aspects that I need to rework. The buttons in the Hero-section, for instance, will be made dynamic and the video in the Hero-section will be re-worked to play automatically on page load. There will also be a code-refactor. Look out for these updates in following iterations of this project. 
 
 This project was inspired by various landing page designs and built with the help of React and its ecosystem of libraries and tools.
 
