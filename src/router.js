@@ -1,8 +1,5 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { RotatingSquare } from 'react-loader-spinner';
-
-
 
 
 const App = lazy(() => import('./App'));
@@ -13,7 +10,7 @@ const ProblemAndSolutions = lazy(() => import('./components/problem_and_solution
 function Router() {
     return (
         <BrowserRouter>
-            <Suspense fallback={<RotatingSquare />}>
+            <Suspense>
                 <Routes>
                     <Route path="/" element={<App />}>
                         <Route path="hero" element={<HeroSection />} />
