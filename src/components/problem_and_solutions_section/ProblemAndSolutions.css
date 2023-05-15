@@ -1,0 +1,58 @@
+.problems-solutions {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+  }
+  
+  .problems-solutions h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    width: 350px;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card h4 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+  
+  .card p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .btn-primary {
+    background-color: #2f3c75 !important;
+  }
+
+  .btn-div {
+    text-align: center;
+  }
+  

@@ -1,0 +1,123 @@
+.hero-container {
+    background: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .hero-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      transparent 100%
+    );
+    z-index: 2;
+  }
+  
+  .hero-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+  }
+
+  .hero-container .hero-text{
+    z-index: 1;
+  }
+  
+  .hero-container h1 {
+    color: #fff;
+    font-size: 4rem;
+    /* text-align: center; */
+    z-index: 3;
+    /* display: grid; */
+  }
+  
+  .hero-container p {
+    margin-top: 24px;
+    color: #fff;
+    font-size: 1.5rem;
+    /* text-align: center; */
+    max-width: 600px;
+    z-index: 3;
+    /* display: block; */
+  }
+
+  .container {
+    background: rgba(0, 0, 0, 0);
+    border: transparent;
+    padding-top: 8rem;
+    text-align: center;
+    /* position: relative; */
+  }
+  
+  .hero-btns {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+    opacity: 1;
+  }
+  
+  .btn-1 {
+    border-radius: 50px;
+    background: #556ac5;
+    white-space: nowrap;
+    padding: 14px 48px;
+    color: #fff;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    /* display: block; */
+  }
+  
+  .btn:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+  }
+  
+  .btn--outline {
+    border-radius: 50px;
+    border: 2px solid #556ac5;
+    background: transparent;
+    white-space: nowrap;
+    padding: 14px 48px;
+    color: #fff;
+    font-size: 1.2rem;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .hero-text .hero-btns .btn--outline:hover {
+    transition: all 0.2s ease-in-out;
+    background: #01bf71;
+    color: #fff;
+  }
+
+  .btn-1 {
+    margin-bottom: 3vh;
+  }
+  
